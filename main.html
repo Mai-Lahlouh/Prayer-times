@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prayer times</title>
+    <script src="./node_modules/axios/dist/axios.min.js"></script>
+    <link rel="stylesheet" href="CSS/main.css">
+    <link rel="stylesheet" href="CSS/header.css">
+    <link rel="stylesheet" href="CSS/input.css">
+    <link rel="stylesheet" href="CSS/prayer-list.css">
+</head>
+<body>
+    <main>
+        <header>
+            <section class="country">
+                <div id="city">Palestine</div>
+                <p id="date">Saturday- 20 July, 2024</p>
+            </section>
+            <div class="prayer">
+                <h2>Next Prayer is</h2>
+                <span id="prayer"></span>
+                <span id="prayer-time"></span>
+            </div>
+        </header>
+        <section>
+            <select placeholder="Type your country" id="country">
+                <option>Jenin</option>
+                <option>Ramallah</option>
+                <option>Jericho</option>
+                <option>Gaza City</option>
+                <option>Hebron</option>
+                <option>Qalqilya</option>
+                <option>Bethlehem</option>
+            </select>
+            <button id="countryBtn">Search</button>
+        </section>
+        <article class="list" id="list">
+        </article>
+    </main>
+    <footer>
+        © 2024 Mai Lahlouh | All Rights Reserved
+    </footer>
+    <script src="JS/main.js"></script>
+</body>
+</html>

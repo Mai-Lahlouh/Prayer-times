@@ -1,0 +1,39 @@
+header{
+    width: 60vw;
+    background-color:#526D82 ;
+    color: #DDE6ED;
+    margin-top: 60px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+}
+.country{
+    display: flex;
+    justify-content: space-between;
+}
+.country > div{
+    font-size: xxx-large;
+    font-weight: 500;
+    padding: 20px 20px 10px;
+}
+.country > p{
+    font-size: large;
+    margin: 20px 20px 10px;
+    padding-top: 24px;
+}
+header > section > p{
+    font-size: large;
+    padding: 20px 20px 10px;
+}
+h5,div,a{
+    padding: 5px 20px;
+}
+.prayer > span:first-of-type{
+    color: #f97400;
+    font-size: xxx-large;
+}
+.prayer span{
+    color: #DDE6ED;
+    font-size: large;
+}
